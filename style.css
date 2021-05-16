@@ -3,6 +3,7 @@ h1 {
     color: #eee;
     text-align: right;
     margin: 0px;
+    border-radius: 5px; // gitのテスト用
 }
 body {
     font-size: 12pt;
