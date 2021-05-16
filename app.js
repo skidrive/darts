@@ -21,7 +21,7 @@ function getFromClient(request, response){
         case '/':
             var content = ejs.render(index_page, {
                 title: "Index",
-                content: "これはテンプレートを使ったサンプルページです。"
+                content: "これはテンプレートを使ったサンプルページ。"
             });
             response.writeHead(200, {'Content-type' : 'text/html'});
             response.write(content);
